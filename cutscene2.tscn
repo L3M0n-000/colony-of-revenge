@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://mlgjgjk5j730"]
+
+[ext_resource type="Texture2D" uid="uid://cixvibpj0p51j" path="res://asstes/cutscene 2.png" id="1_ncxyc"]
+[ext_resource type="FontFile" uid="uid://c1rlfyrdaqdbw" path="res://asstes/Jersey25-Regular.ttf" id="1_q18ei"]
+[ext_resource type="Script" uid="uid://jktad8xulubv" path="res://cut_button2.gd" id="3_ncxyc"]
+[ext_resource type="AudioStream" uid="uid://dm7i3h84cbtda" path="res://asstes/Far Far Away.ogg" id="12_v3x7e"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_orua6"]
+font = ExtResource("1_q18ei")
+font_size = 32
+font_color = Color(18.892002, 18.892002, 18.892002, 1)
+outline_size = 5
+outline_color = Color(0, 0, 0, 1)
+
+[node name="Node2D" type="Node2D" unique_id=1113032858]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=772341750]
+texture_filter = 1
+offset_right = 1154.0
+offset_bottom = 649.0
+texture = ExtResource("1_ncxyc")
+
+[node name="Button" type="Button" parent="." unique_id=1127806545]
+texture_filter = 1
+offset_left = 894.0
+offset_top = 566.0
+offset_right = 1133.0
+offset_bottom = 639.0
+theme_override_fonts/font = ExtResource("1_q18ei")
+theme_override_font_sizes/font_size = 64
+text = "NEXT"
+script = ExtResource("3_ncxyc")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1383949280]
+stream = ExtResource("12_v3x7e")
+autoplay = true
+parameters/looping = true
+
+[node name="Label" type="Label" parent="." unique_id=1057377824]
+visible = false
+offset_right = 40.0
+offset_bottom = 23.0
+text = "After a long journey. You encountered that mans virus harvesting device that held the serum 
+to turn you back into humans. However the mans whereabouts are unknown but maybe one 
+day you will exact your revenge"
+label_settings = SubResource("LabelSettings_orua6")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

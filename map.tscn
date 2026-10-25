@@ -1,0 +1,2445 @@
+[gd_scene format=3 uid="uid://byxpkg0n3ncol"]
+
+[ext_resource type="Texture2D" uid="uid://brxwufvqdcv73" path="res://asstes/rest icon spritesheet.png" id="1_sb2pt"]
+[ext_resource type="Texture2D" uid="uid://bjrudh80tuk0x" path="res://asstes/map 2.png" id="2_n2jt6"]
+[ext_resource type="Texture2D" uid="uid://c3kodgy4rh0p8" path="res://asstes/Combat Icon.png" id="2_sb2pt"]
+[ext_resource type="Script" uid="uid://baycyaoi4r43t" path="res://map_button.gd" id="2_wijl4"]
+[ext_resource type="Texture2D" uid="uid://cwevsoods3bob" path="res://asstes/Combat Icon-done.png.png" id="3_3mr0t"]
+[ext_resource type="Texture2D" uid="uid://kh4ed8af47x1" path="res://asstes/map 3.png" id="3_bn158"]
+[ext_resource type="Script" uid="uid://q30n0d0cw6rj" path="res://button_2.gd" id="3_oysan"]
+[ext_resource type="Texture2D" uid="uid://dbfedxyuqult1" path="res://asstes/rest-done.png" id="4_6sq2s"]
+[ext_resource type="Script" uid="uid://botd7086puyjb" path="res://button_3.gd" id="4_sb2pt"]
+[ext_resource type="Script" uid="uid://b6gdlgfufuwf1" path="res://button_4.gd" id="5_0t07s"]
+[ext_resource type="Texture2D" uid="uid://bcwukhy3ps8fc" path="res://rpgiab_icon_pack_v1.3/16x16/coins.png" id="5_jk4ss"]
+[ext_resource type="Texture2D" uid="uid://d3a21ujipevcy" path="res://rpgiab_icon_pack_v1.3/32x32/arrow_up.png" id="5_r5om4"]
+[ext_resource type="Script" uid="uid://b5jgg7byjobja" path="res://button_5.gd" id="6_6qsgm"]
+[ext_resource type="Script" uid="uid://c7hguyhe2atvj" path="res://button_6.gd" id="7_ooc2g"]
+[ext_resource type="Script" uid="uid://byaolyapwps2l" path="res://button_7.gd" id="8_2wwcf"]
+[ext_resource type="Script" uid="uid://b20sqjp30c17p" path="res://button_8.gd" id="9_wbpbn"]
+[ext_resource type="Script" uid="uid://chrqoj6jp48f7" path="res://button_9.gd" id="10_a6rn7"]
+[ext_resource type="Texture2D" uid="uid://bqwd3nwcxu4dj" path="res://asstes/shop icon spritesheet.png" id="11_iixrc"]
+[ext_resource type="Script" uid="uid://bjeb6i753p17f" path="res://currency.gd" id="12_0t07s"]
+[ext_resource type="Script" uid="uid://i8p0i1oxwady" path="res://button_10.gd" id="12_4on3e"]
+[ext_resource type="Script" uid="uid://c0vaqs0vabt8" path="res://button_11.gd" id="13_bssq0"]
+[ext_resource type="Script" uid="uid://v6l6ajdgonwk" path="res://button_12.gd" id="14_jk4ss"]
+[ext_resource type="Script" uid="uid://c1ngm3ge00dse" path="res://button_13.gd" id="15_r5om4"]
+[ext_resource type="Script" uid="uid://ba3dxxxhwdo20" path="res://button_14.gd" id="16_jky6x"]
+[ext_resource type="Script" uid="uid://d22vbk3gnlqrl" path="res://button_15.gd" id="17_4sf5t"]
+[ext_resource type="Texture2D" uid="uid://c8e1rmkxwbgve" path="res://asstes/Map.png" id="19_bssq0"]
+[ext_resource type="Script" uid="uid://6e1u36lrdsvd" path="res://button_16.gd" id="24_7vxqa"]
+[ext_resource type="Script" uid="uid://c8hgv6cx6qs7v" path="res://camera_2d.gd" id="24_h75vw"]
+[ext_resource type="Script" uid="uid://plxf2fovx1pa" path="res://button_17.gd" id="25_1xagg"]
+[ext_resource type="Script" uid="uid://8em1ug1m7sa7" path="res://button_18.gd" id="26_urahp"]
+[ext_resource type="Script" uid="uid://bqdqprnxxr7fd" path="res://button_26.gd" id="27_cskkv"]
+[ext_resource type="Script" uid="uid://dy2npgt85j3lm" path="res://button_19.gd" id="28_028i1"]
+[ext_resource type="Script" uid="uid://ban4lcoq261wd" path="res://button_27.gd" id="29_hltbc"]
+[ext_resource type="Script" uid="uid://btqhg5s7050m6" path="res://button_20.gd" id="30_y0s0d"]
+[ext_resource type="Script" uid="uid://6yq3wcve1hwp" path="res://button_21.gd" id="31_iwan2"]
+[ext_resource type="Script" uid="uid://cm7wfcb07hkf7" path="res://button_28.gd" id="32_hac6k"]
+[ext_resource type="Script" uid="uid://cg7lmyed48c1w" path="res://button_22.gd" id="33_tu3qe"]
+[ext_resource type="Script" uid="uid://badbh80vn53hh" path="res://button_29.gd" id="34_epbps"]
+[ext_resource type="Script" uid="uid://cb040rdpyvsn0" path="res://button_30.gd" id="35_7b682"]
+[ext_resource type="Script" uid="uid://c0nbwk1bvxnbc" path="res://button_23.gd" id="35_xbf5p"]
+[ext_resource type="Script" uid="uid://bdvt5xmv07kit" path="res://button_24.gd" id="36_na5ms"]
+[ext_resource type="Script" uid="uid://1weoial8su40" path="res://button_25.gd" id="37_28eae"]
+[ext_resource type="Script" uid="uid://o4l3e1rkycsw" path="res://button_31.gd" id="39_bn158"]
+[ext_resource type="Script" uid="uid://13xgoeb53trf" path="res://button_32.gd" id="40_iixrc"]
+[ext_resource type="Script" uid="uid://cui5gommbwf8l" path="res://button_33.gd" id="41_ojpgx"]
+[ext_resource type="Script" uid="uid://dvy1e28eisujq" path="res://button_34.gd" id="42_f65ro"]
+[ext_resource type="Script" uid="uid://coavmjnvd8yqr" path="res://button_35.gd" id="43_pu337"]
+[ext_resource type="Script" uid="uid://dupirrkjdt4x3" path="res://button_36.gd" id="44_8x52i"]
+[ext_resource type="Script" uid="uid://4o211wlu6l0s" path="res://button_37.gd" id="45_gqiyg"]
+[ext_resource type="Script" uid="uid://ba2t8g8uec6ul" path="res://button_38.gd" id="46_p6qp2"]
+[ext_resource type="Script" uid="uid://lcundha1d6ok" path="res://button_39.gd" id="47_s2qvx"]
+[ext_resource type="Script" uid="uid://bpj3x7eo3hrj" path="res://button_40.gd" id="48_ir2v7"]
+[ext_resource type="Script" uid="uid://cbmnbeqwwoxws" path="res://button_41.gd" id="49_nw1h7"]
+[ext_resource type="Script" uid="uid://bt8cf25y30kve" path="res://button_42.gd" id="50_x00dc"]
+[ext_resource type="Script" uid="uid://dovncngcyk3v4" path="res://button_43.gd" id="51_lu2wf"]
+[ext_resource type="Script" uid="uid://dcr8kdmx7whxn" path="res://button_44.gd" id="52_0inej"]
+[ext_resource type="Script" uid="uid://dldx7axnrxmjm" path="res://button_45.gd" id="53_to61r"]
+[ext_resource type="Script" uid="uid://ch2nmdb0qsib3" path="res://button_46.gd" id="56_f65ro"]
+[ext_resource type="Texture2D" uid="uid://d18e6ai7qridx" path="res://asstes/pixil-frame-0 (31).png" id="57_pu337"]
+[ext_resource type="AudioStream" uid="uid://b5rt3csnl5ps8" path="res://Map theme mixed.wav" id="60_iixrc"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_sb2pt"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4v3wx"]
+atlas = ExtResource("4_6sq2s")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y1wlr"]
+atlas = ExtResource("4_6sq2s")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n2jt6"]
+atlas = ExtResource("4_6sq2s")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h75vw"]
+atlas = ExtResource("4_6sq2s")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_orua6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4v3wx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y1wlr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n2jt6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h75vw")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6sq2s"]
+atlas = ExtResource("1_sb2pt")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7vxqa"]
+atlas = ExtResource("1_sb2pt")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qw8h8"]
+atlas = ExtResource("1_sb2pt")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_meq34"]
+atlas = ExtResource("1_sb2pt")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yy28u"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6sq2s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7vxqa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qw8h8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_meq34")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ojpgx"]
+atlas = ExtResource("11_iixrc")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f65ro"]
+atlas = ExtResource("11_iixrc")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pu337"]
+atlas = ExtResource("11_iixrc")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8x52i"]
+atlas = ExtResource("11_iixrc")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jpyye"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ojpgx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f65ro")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pu337")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8x52i")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0t07s"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6qsgm"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2wwcf"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wbpbn"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_a6rn7"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4on3e"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bssq0"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jk4ss"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_6qsgm"]
+font_size = 32
+
+[node name="Node2D" type="Node2D" unique_id=1108931084]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2009404202]
+z_index = -4
+texture_filter = 1
+offset_right = 1148.4445
+offset_bottom = 646.0
+texture = ExtResource("19_bssq0")
+
+[node name="TextureRect" type="TextureRect" parent="TextureRect" unique_id=1981280506]
+z_index = -4
+texture_filter = 1
+layout_mode = 0
+offset_left = -1148.0
+offset_right = 0.444458
+offset_bottom = 646.0
+texture = ExtResource("19_bssq0")
+flip_h = true
+
+[node name="TextureRect2" type="TextureRect" parent="TextureRect" unique_id=1027663815]
+z_index = -4
+texture_filter = 1
+layout_mode = 0
+offset_left = -1148.0
+offset_top = 646.0
+offset_right = 0.444458
+offset_bottom = 1292.0
+texture = ExtResource("2_n2jt6")
+flip_h = true
+
+[node name="TextureRect3" type="TextureRect" parent="TextureRect" unique_id=699495740]
+z_index = -4
+texture_filter = 1
+layout_mode = 0
+offset_left = 1.0
+offset_top = 646.0
+offset_right = 1149.4445
+offset_bottom = 1292.0
+texture = ExtResource("3_bn158")
+flip_h = true
+
+[node name="Button" type="Button" parent="." unique_id=1894588512]
+texture_filter = 1
+offset_left = 937.0
+offset_top = 579.0
+offset_right = 998.0
+offset_bottom = 640.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_sb2pt")
+script = ExtResource("2_wijl4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button" unique_id=1718903227]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button" unique_id=636055924]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.015659107
+
+[node name="Sprite2D" type="Sprite2D" parent="Button" unique_id=815864286]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button" unique_id=673458282]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Button" unique_id=1662209223]
+visible = false
+position = Vector2(30.999989, 31.000008)
+scale = Vector2(3.6250014, 3.749999)
+texture = ExtResource("5_jk4ss")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button" unique_id=196253121]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="Button" unique_id=102921844]
+visible = false
+texture_filter = 1
+position = Vector2(29.999996, 28.999998)
+scale = Vector2(0.4375, 0.4375)
+sprite_frames = SubResource("SpriteFrames_jpyye")
+autoplay = "default"
+frame_progress = 0.12768245
+
+[node name="Button2" type="Button" parent="." unique_id=2113610105]
+texture_filter = 1
+offset_left = 828.0
+offset_top = 488.0
+offset_right = 889.0
+offset_bottom = 549.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("3_oysan")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button2" unique_id=924662115]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button2" unique_id=89103979]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button2" unique_id=1197493031]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button2" unique_id=1166120405]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button2" unique_id=1135186622]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button3" type="Button" parent="." unique_id=1916990427]
+texture_filter = 1
+offset_left = 674.0
+offset_top = 492.0
+offset_right = 735.0
+offset_bottom = 553.0
+theme_override_styles/disabled = SubResource("StyleBoxTexture_6qsgm")
+script = ExtResource("4_sb2pt")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button3" unique_id=2044024392]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button3" unique_id=53093396]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button3" unique_id=1397498487]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button3" unique_id=991920300]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button3" unique_id=48392083]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button4" type="Button" parent="." unique_id=1908880828]
+texture_filter = 1
+offset_left = 588.0
+offset_top = 434.0
+offset_right = 649.0
+offset_bottom = 495.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_2wwcf")
+script = ExtResource("5_0t07s")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button4" unique_id=2113638586]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button4" unique_id=781712238]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button4" unique_id=1671111761]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button4" unique_id=1592424911]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button4" unique_id=869907848]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button5" type="Button" parent="." unique_id=2035448229]
+texture_filter = 1
+offset_left = 549.0
+offset_top = 332.0
+offset_right = 610.0
+offset_bottom = 393.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_wbpbn")
+script = ExtResource("6_6qsgm")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button5" unique_id=410397801]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button5" unique_id=994589217]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button5" unique_id=1110111428]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button5" unique_id=1126263834]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button5" unique_id=1356204592]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="Button6" type="Button" parent="." unique_id=1506682868]
+texture_filter = 1
+offset_left = 511.0
+offset_top = 220.0
+offset_right = 572.0
+offset_bottom = 281.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_a6rn7")
+script = ExtResource("7_ooc2g")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button6" unique_id=1311067480]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button6" unique_id=1705219169]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button6" unique_id=2037357812]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button6" unique_id=75650771]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button6" unique_id=1739355007]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button7" type="Button" parent="." unique_id=788041975]
+texture_filter = 1
+offset_left = 451.0
+offset_top = 134.0
+offset_right = 512.0
+offset_bottom = 195.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_4on3e")
+script = ExtResource("8_2wwcf")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button7" unique_id=998132366]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button7" unique_id=1176217662]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button7" unique_id=709971219]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button7" unique_id=728141350]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button7" unique_id=62083425]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button8" type="Button" parent="." unique_id=1126903266]
+texture_filter = 1
+offset_left = 354.0
+offset_top = 123.0
+offset_right = 415.0
+offset_bottom = 184.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_bssq0")
+script = ExtResource("9_wbpbn")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button8" unique_id=764157516]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button8" unique_id=188574793]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button8" unique_id=499526953]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button8" unique_id=919207806]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button8" unique_id=95999400]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button9" type="Button" parent="." unique_id=1767493746]
+texture_filter = 1
+offset_left = 216.0
+offset_top = 105.0
+offset_right = 277.0
+offset_bottom = 166.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_jk4ss")
+script = ExtResource("10_a6rn7")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button9" unique_id=1429979140]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button9" unique_id=673522497]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Button9" unique_id=1152623476]
+visible = false
+position = Vector2(30.999989, 31.000008)
+scale = Vector2(3.6250014, 3.749999)
+texture = ExtResource("5_jk4ss")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button9" unique_id=679763709]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button9" unique_id=614152936]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button9" unique_id=1300415268]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button10" type="Button" parent="." unique_id=53854053]
+texture_filter = 1
+offset_left = 108.0
+offset_top = 53.0
+offset_right = 169.0
+offset_bottom = 114.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_jk4ss")
+script = ExtResource("12_4on3e")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button10" unique_id=1482357934]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button10" unique_id=1684713638]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Button10" unique_id=1552745163]
+visible = false
+position = Vector2(30.999989, 31.000008)
+scale = Vector2(3.6250014, 3.749999)
+texture = ExtResource("5_jk4ss")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button10" unique_id=648664906]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button10" unique_id=1653449551]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button10" unique_id=1251346329]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="Button12" type="Button" parent="." unique_id=1838692121]
+texture_filter = 1
+offset_left = 781.0
+offset_top = 372.0
+offset_right = 842.0
+offset_bottom = 433.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_jk4ss")
+script = ExtResource("14_jk4ss")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button12" unique_id=167973573]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button12" unique_id=915678436]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button12" unique_id=357815791]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button12" unique_id=1899492381]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button12" unique_id=571423589]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button13" type="Button" parent="." unique_id=85076635]
+texture_filter = 1
+offset_left = 667.0
+offset_top = 325.0
+offset_right = 728.0
+offset_bottom = 386.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_jk4ss")
+script = ExtResource("15_r5om4")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button13" unique_id=314591653]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button13" unique_id=1792382881]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button13" unique_id=2074764160]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button13" unique_id=1823413467]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button13" unique_id=52969345]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button14" type="Button" parent="." unique_id=565074187]
+texture_filter = 1
+offset_left = 397.0
+offset_top = 314.0
+offset_right = 458.0
+offset_bottom = 375.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_jk4ss")
+script = ExtResource("16_jky6x")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button14" unique_id=1194757921]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button14" unique_id=1651673871]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button14" unique_id=812972648]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button14" unique_id=1197720559]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button14" unique_id=197192721]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button15" type="Button" parent="." unique_id=896103203]
+texture_filter = 1
+offset_left = 311.0
+offset_top = 277.0
+offset_right = 372.0
+offset_bottom = 338.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_jk4ss")
+script = ExtResource("17_4sf5t")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button15" unique_id=926345144]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button15" unique_id=524777185]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button15" unique_id=968015234]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button15" unique_id=1324587547]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button15" unique_id=2135883748]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button11" type="Button" parent="." unique_id=1904630328]
+texture_filter = 1
+offset_left = 273.0
+offset_top = 199.0
+offset_right = 334.0
+offset_bottom = 260.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_jk4ss")
+script = ExtResource("13_bssq0")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button11" unique_id=1259285377]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button11" unique_id=1244915755]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button11" unique_id=48066853]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button11" unique_id=1683726024]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button11" unique_id=918598121]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button16" type="Button" parent="." unique_id=169238614]
+texture_filter = 1
+offset_left = -94.0
+offset_top = 40.0
+offset_right = -33.0
+offset_bottom = 101.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_sb2pt")
+script = ExtResource("24_7vxqa")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button16" unique_id=401931655]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button16" unique_id=1012814389]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.11528294
+
+[node name="Sprite2D" type="Sprite2D" parent="Button16" unique_id=780793142]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button16" unique_id=1212066974]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Button16" unique_id=1712655686]
+visible = false
+position = Vector2(30.999989, 31.000008)
+scale = Vector2(3.6250014, 3.749999)
+texture = ExtResource("5_jk4ss")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button16" unique_id=1264629834]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="Button16" unique_id=1925361738]
+visible = false
+texture_filter = 1
+position = Vector2(29.999996, 28.999998)
+scale = Vector2(0.4375, 0.4375)
+sprite_frames = SubResource("SpriteFrames_jpyye")
+autoplay = "default"
+frame_progress = 0.12768245
+
+[node name="Button17" type="Button" parent="." unique_id=122913256]
+texture_filter = 1
+offset_left = -249.0
+offset_top = 93.0
+offset_right = -188.0
+offset_bottom = 154.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("25_1xagg")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button17" unique_id=362491812]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button17" unique_id=951170916]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button17" unique_id=1687440388]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button17" unique_id=114132585]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button17" unique_id=1222566559]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button18" type="Button" parent="." unique_id=343899870]
+texture_filter = 1
+offset_left = -341.0
+offset_top = 205.0
+offset_right = -280.0
+offset_bottom = 266.0
+theme_override_styles/disabled = SubResource("StyleBoxTexture_6qsgm")
+script = ExtResource("26_urahp")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button18" unique_id=1218724317]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button18" unique_id=363624497]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button18" unique_id=1497087708]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button18" unique_id=1537183348]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button18" unique_id=2064773855]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button26" type="Button" parent="." unique_id=662671484]
+texture_filter = 1
+offset_left = -434.0
+offset_top = 121.0
+offset_right = -373.0
+offset_bottom = 182.0
+theme_override_styles/disabled = SubResource("StyleBoxTexture_6qsgm")
+script = ExtResource("27_cskkv")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button26" unique_id=320240791]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button26" unique_id=783752405]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button26" unique_id=1815037927]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button26" unique_id=886981996]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button26" unique_id=2035200257]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button19" type="Button" parent="." unique_id=323298587]
+texture_filter = 1
+offset_left = -450.0
+offset_top = 315.0
+offset_right = -389.0
+offset_bottom = 376.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("28_028i1")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button19" unique_id=1897017932]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button19" unique_id=565324457]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button19" unique_id=441820591]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button19" unique_id=2116509676]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button19" unique_id=1793419326]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button27" type="Button" parent="." unique_id=601244388]
+texture_filter = 1
+offset_left = -556.0
+offset_top = 183.0
+offset_right = -495.0
+offset_bottom = 244.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("29_hltbc")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button27" unique_id=1430089311]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button27" unique_id=879566984]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button27" unique_id=2146461781]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button27" unique_id=1734869041]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button27" unique_id=2050895045]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button20" type="Button" parent="." unique_id=1281321662]
+texture_filter = 1
+offset_left = -582.0
+offset_top = 305.0
+offset_right = -521.0
+offset_bottom = 366.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("30_y0s0d")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button20" unique_id=2066001066]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button20" unique_id=1029339725]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button20" unique_id=1924984937]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button20" unique_id=922067143]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button20" unique_id=909964764]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button21" type="Button" parent="." unique_id=210156452]
+texture_filter = 1
+offset_left = -619.0
+offset_top = 387.0
+offset_right = -558.0
+offset_bottom = 448.0
+theme_override_styles/disabled = SubResource("StyleBoxTexture_6qsgm")
+script = ExtResource("31_iwan2")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button21" unique_id=310516273]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button21" unique_id=679175350]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button21" unique_id=1151599665]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button21" unique_id=2029403000]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button21" unique_id=1057073803]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button28" type="Button" parent="." unique_id=125432617]
+texture_filter = 1
+offset_left = -695.0
+offset_top = 312.0
+offset_right = -634.0
+offset_bottom = 373.0
+theme_override_styles/disabled = SubResource("StyleBoxTexture_6qsgm")
+script = ExtResource("32_hac6k")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button28" unique_id=1864592008]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button28" unique_id=1674636858]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button28" unique_id=1233345764]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button28" unique_id=672564059]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button28" unique_id=701709113]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button22" type="Button" parent="." unique_id=1922484828]
+texture_filter = 1
+offset_left = -670.0
+offset_top = 470.0
+offset_right = -609.0
+offset_bottom = 531.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("33_tu3qe")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button22" unique_id=862603328]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button22" unique_id=1742583623]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button22" unique_id=688140990]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button22" unique_id=1326964099]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button22" unique_id=2078270654]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button29" type="Button" parent="." unique_id=1735785486]
+texture_filter = 1
+offset_left = -782.0
+offset_top = 333.0
+offset_right = -721.0
+offset_bottom = 394.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("34_epbps")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button29" unique_id=699684231]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button29" unique_id=391249799]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button29" unique_id=1211881078]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button29" unique_id=864733550]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button29" unique_id=710215098]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button30" type="Button" parent="." unique_id=1070944913]
+texture_filter = 1
+offset_left = -862.0
+offset_top = 386.0
+offset_right = -801.0
+offset_bottom = 447.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("35_7b682")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button30" unique_id=733906414]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button30" unique_id=586167728]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button30" unique_id=1216745716]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button30" unique_id=2138645302]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button30" unique_id=2105185872]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button23" type="Button" parent="." unique_id=1568315553]
+texture_filter = 1
+offset_left = -775.0
+offset_top = 490.0
+offset_right = -714.0
+offset_bottom = 551.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("35_xbf5p")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button23" unique_id=833593369]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button23" unique_id=2080189033]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button23" unique_id=347564153]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button23" unique_id=2075935508]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button23" unique_id=383837934]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button24" type="Button" parent="." unique_id=85481266]
+texture_filter = 1
+offset_left = -885.0
+offset_top = 484.0
+offset_right = -824.0
+offset_bottom = 545.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("36_na5ms")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button24" unique_id=1083254805]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button24" unique_id=2079299194]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button24" unique_id=1412248240]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button24" unique_id=693203555]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button24" unique_id=1378541897]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button25" type="Button" parent="." unique_id=1453246285]
+texture_filter = 1
+offset_left = -970.0
+offset_top = 555.0
+offset_right = -909.0
+offset_bottom = 616.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("37_28eae")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button25" unique_id=243649128]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button25" unique_id=166462437]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button25" unique_id=1767278607]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button25" unique_id=619879566]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button25" unique_id=678503423]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button31" type="Button" parent="." unique_id=1700393330]
+texture_filter = 1
+offset_left = -1041.0
+offset_top = 681.0
+offset_right = -980.0
+offset_bottom = 742.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("39_bn158")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button31" unique_id=1853233140]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button31" unique_id=2141637009]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button31" unique_id=2081182090]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button31" unique_id=384120757]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button31" unique_id=1365534120]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Sprite2D3" type="Sprite2D" parent="Button31" unique_id=1344304109]
+visible = false
+position = Vector2(30.999989, 31.000008)
+scale = Vector2(3.6250014, 3.749999)
+texture = ExtResource("5_jk4ss")
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="Button31" unique_id=192899900]
+visible = false
+texture_filter = 1
+position = Vector2(29.999996, 28.999998)
+scale = Vector2(0.4375, 0.4375)
+sprite_frames = SubResource("SpriteFrames_jpyye")
+autoplay = "default"
+frame_progress = 0.12768245
+
+[node name="Button32" type="Button" parent="." unique_id=157448049]
+texture_filter = 1
+offset_left = -1092.0
+offset_top = 777.0
+offset_right = -1031.0
+offset_bottom = 838.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("40_iixrc")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button32" unique_id=616208125]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button32" unique_id=1193463524]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button32" unique_id=338275512]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button32" unique_id=1749522708]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button32" unique_id=1539994650]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button33" type="Button" parent="." unique_id=1728348318]
+texture_filter = 1
+offset_left = -1102.0
+offset_top = 875.0
+offset_right = -1041.0
+offset_bottom = 936.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("41_ojpgx")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button33" unique_id=731433799]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button33" unique_id=831257520]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button33" unique_id=2065148754]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button33" unique_id=1901018288]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button33" unique_id=1753082150]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button34" type="Button" parent="." unique_id=889527461]
+texture_filter = 1
+offset_left = -1100.0
+offset_top = 964.0
+offset_right = -1039.0
+offset_bottom = 1025.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("42_f65ro")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button34" unique_id=1172626426]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button34" unique_id=588306615]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button34" unique_id=546003303]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button34" unique_id=1684733005]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button34" unique_id=1062955693]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button35" type="Button" parent="." unique_id=207170307]
+texture_filter = 1
+offset_left = -1089.0
+offset_top = 1053.0
+offset_right = -1028.0
+offset_bottom = 1114.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("43_pu337")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button35" unique_id=1180603871]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button35" unique_id=176335943]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button35" unique_id=862834463]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button35" unique_id=665598652]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button35" unique_id=1500677670]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button36" type="Button" parent="." unique_id=140781401]
+texture_filter = 1
+offset_left = -1021.0
+offset_top = 1142.0
+offset_right = -960.0
+offset_bottom = 1203.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("44_8x52i")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button36" unique_id=1025101593]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button36" unique_id=1029109392]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button36" unique_id=237492688]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button36" unique_id=1048705016]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button36" unique_id=160554634]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button37" type="Button" parent="." unique_id=1517600307]
+texture_filter = 1
+offset_left = -923.0
+offset_top = 1198.0
+offset_right = -862.0
+offset_bottom = 1259.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("45_gqiyg")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button37" unique_id=1647337313]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button37" unique_id=656521864]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button37" unique_id=919155636]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button37" unique_id=1954850288]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button37" unique_id=1936748903]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button38" type="Button" parent="." unique_id=1768660461]
+texture_filter = 1
+offset_left = -794.0
+offset_top = 1195.0
+offset_right = -733.0
+offset_bottom = 1256.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("46_p6qp2")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button38" unique_id=473826540]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button38" unique_id=323912445]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button38" unique_id=2121329806]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button38" unique_id=1559085688]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button38" unique_id=846128734]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button39" type="Button" parent="." unique_id=128451004]
+texture_filter = 1
+offset_left = -675.0
+offset_top = 1131.0
+offset_right = -614.0
+offset_bottom = 1192.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("47_s2qvx")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button39" unique_id=2097104579]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button39" unique_id=808967399]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button39" unique_id=1727135543]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button39" unique_id=2089401476]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button39" unique_id=420428839]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button40" type="Button" parent="." unique_id=411833882]
+texture_filter = 1
+offset_left = -591.0
+offset_top = 1036.0
+offset_right = -530.0
+offset_bottom = 1097.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("48_ir2v7")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button40" unique_id=408780619]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button40" unique_id=667451226]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button40" unique_id=995873575]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button40" unique_id=1498143763]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button40" unique_id=2092371444]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button41" type="Button" parent="." unique_id=1892796244]
+texture_filter = 1
+offset_left = -504.0
+offset_top = 951.0
+offset_right = -443.0
+offset_bottom = 1012.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("49_nw1h7")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button41" unique_id=473219522]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button41" unique_id=1868461889]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button41" unique_id=366306850]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button41" unique_id=1591996078]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button41" unique_id=155500212]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button42" type="Button" parent="." unique_id=1325143823]
+texture_filter = 1
+offset_left = -403.0
+offset_top = 914.0
+offset_right = -342.0
+offset_bottom = 975.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("50_x00dc")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button42" unique_id=1679701011]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button42" unique_id=832673919]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button42" unique_id=1155282016]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button42" unique_id=1778445074]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button42" unique_id=1122369759]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button43" type="Button" parent="." unique_id=68302111]
+texture_filter = 1
+offset_left = -305.0
+offset_top = 914.0
+offset_right = -244.0
+offset_bottom = 975.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("51_lu2wf")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button43" unique_id=932948937]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button43" unique_id=253780431]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button43" unique_id=123374681]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button43" unique_id=819315016]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button43" unique_id=1832499986]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button44" type="Button" parent="." unique_id=1493982545]
+texture_filter = 1
+offset_left = -195.0
+offset_top = 914.0
+offset_right = -134.0
+offset_bottom = 975.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("52_0inej")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button44" unique_id=305666372]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button44" unique_id=1209367979]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button44" unique_id=281317683]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button44" unique_id=1913682811]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button44" unique_id=582844948]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="Button45" type="Button" parent="." unique_id=507926866]
+texture_filter = 1
+offset_left = -98.0
+offset_top = 914.0
+offset_right = -37.0
+offset_bottom = 975.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("53_to61r")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button45" unique_id=291442004]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button45" unique_id=340941347]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button45" unique_id=1705883904]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button45" unique_id=582557357]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button45" unique_id=852486947]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="Button45" unique_id=407945207]
+visible = false
+texture_filter = 1
+position = Vector2(29.999996, 28.999998)
+scale = Vector2(0.4375, 0.4375)
+sprite_frames = SubResource("SpriteFrames_jpyye")
+autoplay = "default"
+frame_progress = 0.3768056
+
+[node name="Button46" type="Button" parent="." unique_id=978612946]
+texture_filter = 1
+offset_left = 639.0
+offset_top = 957.0
+offset_right = 700.0
+offset_bottom = 1018.0
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_0t07s")
+script = ExtResource("56_f65ro")
+
+[node name="Sprite2D" type="Sprite2D" parent="Button46" unique_id=801110439]
+visible = false
+texture_filter = 1
+position = Vector2(30.999987, 29.999987)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("2_sb2pt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Button46" unique_id=1470717566]
+visible = false
+texture_filter = 1
+position = Vector2(30.99998, 31.000015)
+scale = Vector2(1.6953114, 1.7231036)
+texture = ExtResource("5_r5om4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Button46" unique_id=191763044]
+visible = false
+texture_filter = 1
+position = Vector2(31, 30)
+scale = Vector2(0.4531252, 0.4531252)
+texture = ExtResource("3_3mr0t")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button46" unique_id=1979085098]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_orua6")
+autoplay = "default"
+frame_progress = 0.5608357
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button46" unique_id=1385598557]
+visible = false
+position = Vector2(31.25, 30.25)
+scale = Vector2(0.44140625, 0.44140625)
+sprite_frames = SubResource("SpriteFrames_yy28u")
+autoplay = "default"
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="Button46" unique_id=1668594831]
+visible = false
+texture_filter = 1
+position = Vector2(29.999996, 28.999998)
+scale = Vector2(0.4375, 0.4375)
+sprite_frames = SubResource("SpriteFrames_jpyye")
+autoplay = "default"
+frame_progress = 0.3504228
+
+[node name="Sprite2D3" type="Sprite2D" parent="Button46" unique_id=1632142855]
+position = Vector2(31, 32)
+scale = Vector2(0.453125, 0.453125)
+texture = ExtResource("57_pu337")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1073545520]
+position = Vector2(572, 322)
+script = ExtResource("24_h75vw")
+
+[node name="Label" type="Label" parent="Camera2D" unique_id=1228003683]
+offset_left = -561.0
+offset_top = -311.0
+offset_right = -521.0
+offset_bottom = -266.0
+label_settings = SubResource("LabelSettings_6qsgm")
+script = ExtResource("12_0t07s")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=2133357385]
+stream = ExtResource("60_iixrc")
+autoplay = true
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
+[connection signal="pressed" from="Button2" to="Button2" method="_on_pressed"]
+[connection signal="pressed" from="Button3" to="Button3" method="_on_pressed"]
+[connection signal="pressed" from="Button4" to="Button4" method="_on_pressed"]
+[connection signal="pressed" from="Button5" to="Button5" method="_on_pressed"]
+[connection signal="pressed" from="Button6" to="Button6" method="_on_pressed"]
+[connection signal="pressed" from="Button7" to="Button7" method="_on_pressed"]
+[connection signal="pressed" from="Button8" to="Button8" method="_on_pressed"]
+[connection signal="pressed" from="Button9" to="Button9" method="_on_pressed"]
+[connection signal="pressed" from="Button10" to="Button10" method="_on_pressed"]
+[connection signal="pressed" from="Button12" to="Button12" method="_on_pressed"]
+[connection signal="pressed" from="Button13" to="Button13" method="_on_pressed"]
+[connection signal="pressed" from="Button14" to="Button14" method="_on_pressed"]
+[connection signal="pressed" from="Button15" to="Button15" method="_on_pressed"]
+[connection signal="pressed" from="Button11" to="Button11" method="_on_pressed"]
+[connection signal="pressed" from="Button16" to="Button16" method="_on_pressed"]
+[connection signal="pressed" from="Button17" to="Button17" method="_on_pressed"]
+[connection signal="pressed" from="Button18" to="Button18" method="_on_pressed"]
+[connection signal="pressed" from="Button26" to="Button26" method="_on_pressed"]
+[connection signal="pressed" from="Button19" to="Button19" method="_on_pressed"]
+[connection signal="pressed" from="Button27" to="Button27" method="_on_pressed"]
+[connection signal="pressed" from="Button20" to="Button20" method="_on_pressed"]
+[connection signal="pressed" from="Button21" to="Button21" method="_on_pressed"]
+[connection signal="pressed" from="Button28" to="Button28" method="_on_pressed"]
+[connection signal="pressed" from="Button22" to="Button22" method="_on_pressed"]
+[connection signal="pressed" from="Button29" to="Button29" method="_on_pressed"]
+[connection signal="pressed" from="Button30" to="Button30" method="_on_pressed"]
+[connection signal="pressed" from="Button23" to="Button23" method="_on_pressed"]
+[connection signal="pressed" from="Button24" to="Button24" method="_on_pressed"]
+[connection signal="pressed" from="Button25" to="Button25" method="_on_pressed"]
+[connection signal="pressed" from="Button31" to="Button31" method="_on_pressed"]
+[connection signal="pressed" from="Button32" to="Button32" method="_on_pressed"]
+[connection signal="pressed" from="Button33" to="Button33" method="_on_pressed"]
+[connection signal="pressed" from="Button34" to="Button34" method="_on_pressed"]
+[connection signal="pressed" from="Button35" to="Button35" method="_on_pressed"]
+[connection signal="pressed" from="Button36" to="Button36" method="_on_pressed"]
+[connection signal="pressed" from="Button37" to="Button37" method="_on_pressed"]
+[connection signal="pressed" from="Button38" to="Button38" method="_on_pressed"]
+[connection signal="pressed" from="Button39" to="Button39" method="_on_pressed"]
+[connection signal="pressed" from="Button40" to="Button40" method="_on_pressed"]
+[connection signal="pressed" from="Button41" to="Button41" method="_on_pressed"]
+[connection signal="pressed" from="Button42" to="Button42" method="_on_pressed"]
+[connection signal="pressed" from="Button43" to="Button43" method="_on_pressed"]
+[connection signal="pressed" from="Button44" to="Button44" method="_on_pressed"]
+[connection signal="pressed" from="Button45" to="Button45" method="_on_pressed"]
+[connection signal="pressed" from="Button46" to="Button46" method="_on_pressed"]

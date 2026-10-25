@@ -1,0 +1,217 @@
+[gd_scene format=3 uid="uid://b08ws1oiashla"]
+
+[ext_resource type="Texture2D" uid="uid://dhk72il4cejr1" path="res://asstes/background_new.png" id="1_8ovav"]
+[ext_resource type="Texture2D" uid="uid://ojvjt0hodl6u" path="res://asstes/Play.png" id="2_x2ps0"]
+[ext_resource type="Script" uid="uid://coi6dlpl1wsev" path="res://play_button.gd" id="3_rlxw3"]
+[ext_resource type="Texture2D" uid="uid://c6x211xpdsey4" path="res://asstes/Settings.png" id="4_rlxw3"]
+[ext_resource type="Texture2D" uid="uid://bfhgijrwy6icx" path="res://asstes/Credits.png" id="5_5kukc"]
+[ext_resource type="Script" uid="uid://do24f2arnkbdm" path="res://settings.gd" id="5_r1jqq"]
+[ext_resource type="Script" uid="uid://k3foalq1ut6u" path="res://credits.gd" id="7_56ax1"]
+[ext_resource type="Script" uid="uid://cbrj02jvjx2xp" path="res://h_slider.gd" id="7_p42dv"]
+[ext_resource type="AudioStream" uid="uid://dkcsyu3svftck" path="res://Main menu fixed tail (1).wav" id="8_56ax1"]
+[ext_resource type="FontFile" uid="uid://c1rlfyrdaqdbw" path="res://asstes/Jersey25-Regular.ttf" id="8_r1jqq"]
+[ext_resource type="Script" uid="uid://t4vvr4c1ca2l" path="res://close.gd" id="10_hv5cx"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jpyye"]
+texture = ExtResource("2_x2ps0")
+region_rect = Rect2(56, 148.5, 156, 98)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_x2ps0"]
+texture = ExtResource("2_x2ps0")
+region_rect = Rect2(56, 148, 156, 98)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_orua6"]
+texture = ExtResource("2_x2ps0")
+region_rect = Rect2(56, 148.5, 156, 98)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_o88mx"]
+texture = ExtResource("2_x2ps0")
+region_rect = Rect2(56, 148.5, 156, 98)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rlxw3"]
+texture = ExtResource("4_rlxw3")
+region_rect = Rect2(63, 219.5, 188, 71)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5kukc"]
+texture = ExtResource("4_rlxw3")
+region_rect = Rect2(63, 219.5, 188, 71)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8ovav"]
+texture = ExtResource("4_rlxw3")
+region_rect = Rect2(63, 219.5, 188, 71)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qx8t1"]
+texture = ExtResource("4_rlxw3")
+region_rect = Rect2(63, 219.5, 188, 71)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_p42dv"]
+texture = ExtResource("5_5kukc")
+region_rect = Rect2(61, 273.5, 180, 73)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_r1jqq"]
+texture = ExtResource("5_5kukc")
+region_rect = Rect2(61, 273.5, 180, 73)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_hv5cx"]
+texture = ExtResource("5_5kukc")
+region_rect = Rect2(61, 273.5, 180, 73)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_56ax1"]
+texture = ExtResource("5_5kukc")
+region_rect = Rect2(61, 273.5, 180, 73)
+
+[sub_resource type="LabelSettings" id="LabelSettings_hv5cx"]
+font = ExtResource("8_r1jqq")
+font_size = 32
+
+[sub_resource type="LabelSettings" id="LabelSettings_jpyye"]
+font = ExtResource("8_r1jqq")
+font_size = 44
+
+[node name="Control" type="Control" unique_id=680907904]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=514458746]
+texture_filter = 1
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_8ovav")
+
+[node name="Button" type="Button" parent="." unique_id=189946764]
+texture_filter = 1
+layout_mode = 0
+offset_left = -201.0
+offset_top = 290.0
+offset_right = 3.0257416
+offset_bottom = 404.0
+theme_override_styles/normal = SubResource("StyleBoxTexture_jpyye")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_x2ps0")
+theme_override_styles/hover = SubResource("StyleBoxTexture_orua6")
+theme_override_styles/hover_pressed = SubResource("StyleBoxTexture_o88mx")
+script = ExtResource("3_rlxw3")
+
+[node name="Button2" type="Button" parent="." unique_id=1632390794]
+texture_filter = 1
+layout_mode = 0
+offset_left = -462.0
+offset_top = 422.0
+offset_right = -245.7456
+offset_bottom = 511.0
+theme_override_styles/normal = SubResource("StyleBoxTexture_rlxw3")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_5kukc")
+theme_override_styles/hover = SubResource("StyleBoxTexture_8ovav")
+theme_override_styles/hover_pressed = SubResource("StyleBoxTexture_qx8t1")
+script = ExtResource("5_r1jqq")
+
+[node name="Button3" type="Button" parent="." unique_id=841425989]
+texture_filter = 1
+layout_mode = 0
+offset_left = -755.0
+offset_top = 530.0
+offset_right = -538.7456
+offset_bottom = 619.0
+theme_override_styles/normal = SubResource("StyleBoxTexture_p42dv")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_r1jqq")
+theme_override_styles/hover = SubResource("StyleBoxTexture_hv5cx")
+theme_override_styles/hover_pressed = SubResource("StyleBoxTexture_56ax1")
+script = ExtResource("7_56ax1")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=2001408383]
+stream = ExtResource("8_56ax1")
+autoplay = true
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=802691770]
+visible = false
+layout_mode = 0
+offset_left = 630.0
+offset_top = 170.0
+offset_right = 1110.0
+offset_bottom = 574.0
+color = Color(0.25929382, 0.25929368, 0.25929365, 1)
+
+[node name="HSlider" type="HSlider" parent="ColorRect" unique_id=1100605543]
+layout_mode = 0
+offset_left = 118.0
+offset_top = 124.0
+offset_right = 381.0
+offset_bottom = 140.0
+min_value = 0.1
+max_value = 6.0
+step = 0.1
+value = 0.1
+script = ExtResource("7_p42dv")
+
+[node name="Label" type="Label" parent="ColorRect/HSlider" unique_id=1087466450]
+layout_mode = 0
+offset_left = -30.0
+offset_top = 18.0
+offset_right = 302.0
+offset_bottom = 51.0
+text = "TEMP DIFFICULTY MODIFIER
+THE CLOSER THE DIFFICULTY
+IS TO 0 THE HARDER IT IS"
+label_settings = SubResource("LabelSettings_hv5cx")
+
+[node name="Label2" type="Label" parent="ColorRect/HSlider" unique_id=1122045663]
+layout_mode = 0
+offset_left = -31.0
+offset_top = -46.0
+offset_right = 301.0
+offset_bottom = -13.0
+text = "DIFFICULTY "
+label_settings = SubResource("LabelSettings_hv5cx")
+
+[node name="Button" type="Button" parent="ColorRect" unique_id=747017660]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 333.0
+offset_right = 138.0
+offset_bottom = 374.0
+theme_override_fonts/font = ExtResource("8_r1jqq")
+theme_override_font_sizes/font_size = 32
+text = "CLOSE"
+script = ExtResource("10_hv5cx")
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=1399869836]
+visible = false
+layout_mode = 0
+offset_left = 628.0
+offset_top = 174.0
+offset_right = 1108.0
+offset_bottom = 578.0
+color = Color(0.25929382, 0.25929368, 0.25929365, 1)
+
+[node name="Label" type="Label" parent="ColorRect2" unique_id=1070368781]
+layout_mode = 0
+offset_left = 41.0
+offset_top = 47.0
+offset_right = 456.0
+offset_bottom = 236.0
+text = "MADE BY:
+lemon - DEVELOPER
+Matthew64 - COMPOSER
+Ayushka - ARTIST"
+label_settings = SubResource("LabelSettings_jpyye")
+
+[node name="Button" type="Button" parent="ColorRect2" unique_id=1450373419]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 333.0
+offset_right = 138.0
+offset_bottom = 374.0
+theme_override_fonts/font = ExtResource("8_r1jqq")
+theme_override_font_sizes/font_size = 32
+text = "CLOSE"
+script = ExtResource("10_hv5cx")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
+[connection signal="pressed" from="Button2" to="Button2" method="_on_pressed"]
+[connection signal="pressed" from="Button3" to="Button3" method="_on_pressed"]
+[connection signal="pressed" from="ColorRect/Button" to="ColorRect/Button" method="_on_pressed"]
+[connection signal="pressed" from="ColorRect2/Button" to="ColorRect2/Button" method="_on_pressed"]

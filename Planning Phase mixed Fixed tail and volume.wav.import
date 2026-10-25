@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bsp7465lryga5"
+path="res://.godot/imported/Planning Phase mixed Fixed tail and volume.wav-79985c8b900f997fc6747d1e50317989.sample"
+
+[deps]
+
+source_file="res://Planning Phase mixed Fixed tail and volume.wav"
+dest_files=["res://.godot/imported/Planning Phase mixed Fixed tail and volume.wav-79985c8b900f997fc6747d1e50317989.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=2
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

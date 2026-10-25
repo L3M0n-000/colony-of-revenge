@@ -1,0 +1,182 @@
+[gd_scene format=3 uid="uid://cg5vbliu3sn4x"]
+
+[ext_resource type="Texture2D" uid="uid://ctygsbcqqbgvj" path="res://asstes/campsite.png" id="1_81bjr"]
+[ext_resource type="Script" uid="uid://b5oisc7qss6ly" path="res://rest_button.gd" id="1_vkgda"]
+[ext_resource type="FontFile" uid="uid://c1rlfyrdaqdbw" path="res://asstes/Jersey25-Regular.ttf" id="2_dsgub"]
+[ext_resource type="Texture2D" uid="uid://c5ua6pu501hoh" path="res://Basic 2D Shapes Primitive 128px/Basic 2D Shapes Primitive 128px/black soft/ShapeA (1).png" id="2_k1665"]
+[ext_resource type="Script" uid="uid://bvuf536v41tva" path="res://label_6.gd" id="3_xbi8m"]
+[ext_resource type="AudioStream" uid="uid://c67c4q6iegx6c" path="res://asstes/cozy_fx_24.ogg" id="4_dw1hc"]
+[ext_resource type="Texture2D" uid="uid://bkiv7fyiyoyjb" path="res://asstes/pixil-frame-0 (28).png" id="4_vkgda"]
+[ext_resource type="Script" uid="uid://dl2ekg1n2udf1" path="res://label_7.gd" id="5_dsgub"]
+[ext_resource type="Texture2D" uid="uid://drm0worey7g5i" path="res://asstes/pixil-frame-0 (29).png" id="6_k1665"]
+[ext_resource type="Script" uid="uid://se00w3ah4flj" path="res://label_8.gd" id="7_7f4bk"]
+[ext_resource type="Texture2D" uid="uid://cywd7hynnh1a7" path="res://asstes/pixil-frame-0 (30).png" id="8_xbi8m"]
+[ext_resource type="Script" uid="uid://boryrvbf3bxih" path="res://Rest.gd" id="9_cjkwj"]
+[ext_resource type="Texture2D" uid="uid://k8lrg7u8atiy" path="res://asstes/campfire for campsite.png" id="12_dw1hc"]
+[ext_resource type="AudioStream" uid="uid://dm7i3h84cbtda" path="res://asstes/Far Far Away.ogg" id="13_dsgub"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ixkqr"]
+font = ExtResource("2_dsgub")
+font_size = 32
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7f4bk"]
+atlas = ExtResource("12_dw1hc")
+region = Rect2(0, 0, 128, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1d5pm"]
+atlas = ExtResource("12_dw1hc")
+region = Rect2(128, 0, 128, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cjkwj"]
+atlas = ExtResource("12_dw1hc")
+region = Rect2(256, 0, 128, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ixkqr"]
+atlas = ExtResource("12_dw1hc")
+region = Rect2(384, 0, 128, 150)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jpyye"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7f4bk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1d5pm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cjkwj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ixkqr")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="Node2D" unique_id=904442492]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1085508634]
+texture_filter = 1
+offset_right = 1153.0
+offset_bottom = 651.0
+texture = ExtResource("1_81bjr")
+
+[node name="Button" type="Button" parent="." unique_id=1831715008]
+offset_left = 859.0
+offset_top = 15.0
+offset_right = 1139.0
+offset_bottom = 111.0
+theme_override_fonts/font = ExtResource("2_dsgub")
+theme_override_font_sizes/font_size = 64
+text = "REST"
+script = ExtResource("1_vkgda")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Button" unique_id=1614189914]
+stream = ExtResource("4_dw1hc")
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=603351088]
+visible = false
+z_index = 2
+texture_filter = 1
+offset_left = 321.0
+offset_top = 15.0
+offset_right = 840.0
+offset_bottom = 616.0
+texture = ExtResource("2_k1665")
+
+[node name="Label2" type="Label" parent="TextureRect2" unique_id=903296003]
+visible = false
+layout_mode = 0
+offset_left = 60.0
+offset_top = 141.0
+offset_right = 220.0
+offset_bottom = 186.0
+text = "Curreny: + "
+label_settings = SubResource("LabelSettings_ixkqr")
+
+[node name="Label3" type="Label" parent="TextureRect2" unique_id=1145412947]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 220.0
+offset_right = 220.0
+offset_bottom = 265.0
+text = "+"
+label_settings = SubResource("LabelSettings_ixkqr")
+script = ExtResource("3_xbi8m")
+
+[node name="Sprite2D" type="Sprite2D" parent="TextureRect2/Label3" unique_id=1372035142]
+texture_filter = 1
+position = Vector2(345, 22)
+scale = Vector2(0.5390625, 0.5390625)
+texture = ExtResource("4_vkgda")
+
+[node name="Label4" type="Label" parent="TextureRect2" unique_id=685287995]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 296.0
+offset_right = 220.0
+offset_bottom = 341.0
+text = "+"
+label_settings = SubResource("LabelSettings_ixkqr")
+script = ExtResource("5_dsgub")
+
+[node name="Sprite2D" type="Sprite2D" parent="TextureRect2/Label4" unique_id=1979325640]
+texture_filter = 1
+position = Vector2(345, 22)
+scale = Vector2(0.5390625, 0.5390625)
+texture = ExtResource("6_k1665")
+
+[node name="Label5" type="Label" parent="TextureRect2" unique_id=1891604003]
+layout_mode = 0
+offset_left = 61.0
+offset_top = 374.0
+offset_right = 221.0
+offset_bottom = 419.0
+text = "+"
+label_settings = SubResource("LabelSettings_ixkqr")
+script = ExtResource("7_7f4bk")
+
+[node name="Sprite2D" type="Sprite2D" parent="TextureRect2/Label5" unique_id=1751130866]
+texture_filter = 1
+position = Vector2(345, 22)
+scale = Vector2(0.5390625, 0.5390625)
+texture = ExtResource("8_xbi8m")
+
+[node name="Label" type="Label" parent="TextureRect2" unique_id=722252392]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 50.0
+offset_right = 472.0
+offset_bottom = 95.0
+text = "SOME OF YOUR ANTS 
+RECOVERED"
+label_settings = SubResource("LabelSettings_ixkqr")
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="TextureRect2" unique_id=393473734]
+layout_mode = 0
+offset_left = 163.0
+offset_top = 487.00003
+offset_right = 340.71643
+offset_bottom = 550.0
+rotation = 0.0041622766
+text = "NEXT"
+script = ExtResource("9_cjkwj")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=368329364]
+texture_filter = 1
+position = Vector2(557, 538)
+scale = Vector2(0.82421845, 0.82421845)
+sprite_frames = SubResource("SpriteFrames_jpyye")
+autoplay = "default"
+frame_progress = 0.79332274
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=211456754]
+stream = ExtResource("13_dsgub")
+autoplay = true
+parameters/looping = true
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
+[connection signal="pressed" from="TextureRect2/Button" to="TextureRect2/Button" method="_on_pressed"]

@@ -1,0 +1,207 @@
+[gd_scene format=3 uid="uid://cyjlhit443akj"]
+
+[ext_resource type="Script" uid="uid://cvfgu8ixrlmxm" path="res://node_2d.gd" id="1_g7gma"]
+[ext_resource type="AudioStream" uid="uid://cypej366dxmn7" path="res://asstes/Shop theme mixed.wav" id="2_f1yfn"]
+[ext_resource type="Texture2D" uid="uid://bkiv7fyiyoyjb" path="res://asstes/pixil-frame-0 (28).png" id="2_of4aw"]
+[ext_resource type="Texture2D" uid="uid://drm0worey7g5i" path="res://asstes/pixil-frame-0 (29).png" id="3_f1yfn"]
+[ext_resource type="Texture2D" uid="uid://cywd7hynnh1a7" path="res://asstes/pixil-frame-0 (30).png" id="4_r2h2x"]
+[ext_resource type="FontFile" uid="uid://c1rlfyrdaqdbw" path="res://asstes/Jersey25-Regular.ttf" id="5_ietlq"]
+[ext_resource type="Script" uid="uid://de0odwtrdotr7" path="res://atk.gd" id="6_ifkpe"]
+[ext_resource type="Script" uid="uid://q7loe8fqmfte" path="res://atk3.gd" id="7_2u1cw"]
+[ext_resource type="Script" uid="uid://b6dvsfxv7io" path="res://atk2.gd" id="8_805oc"]
+[ext_resource type="Script" uid="uid://bjmkgu7iwq62e" path="res://health.gd" id="9_msik1"]
+[ext_resource type="Script" uid="uid://btfe46wqookat" path="res://health2.gd" id="10_elkf3"]
+[ext_resource type="Script" uid="uid://bsxrthnlgahkg" path="res://health3.gd" id="11_fkbcv"]
+[ext_resource type="Script" uid="uid://4me2s3ievrdl" path="res://cost_label.gd" id="12_5lg3s"]
+[ext_resource type="Script" uid="uid://dd8a4mxlveoj" path="res://currency_label.gd" id="13_65xal"]
+[ext_resource type="Script" uid="uid://b38xllil1isbj" path="res://leave_upgrade.gd" id="14_of4aw"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_jpyye"]
+font = ExtResource("5_ietlq")
+font_size = 32
+
+[sub_resource type="LabelSettings" id="LabelSettings_5q0ap"]
+font = ExtResource("5_ietlq")
+font_size = 64
+
+[sub_resource type="LabelSettings" id="LabelSettings_d1e4h"]
+font = ExtResource("5_ietlq")
+font_size = 32
+
+[node name="Node2D" type="Node2D" unique_id=1721812432]
+script = ExtResource("1_g7gma")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=826914573]
+stream = ExtResource("2_f1yfn")
+autoplay = true
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2082627495]
+offset_right = 1153.0
+offset_bottom = 644.0
+mouse_filter = 1
+color = Color(0.1728327, 0.17283267, 0.17283267, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1424248016]
+texture_filter = 1
+position = Vector2(146, 131)
+texture = ExtResource("2_of4aw")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1487490480]
+texture_filter = 1
+position = Vector2(560, 131)
+texture = ExtResource("3_f1yfn")
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=374850137]
+texture_filter = 1
+position = Vector2(973, 131)
+texture = ExtResource("4_r2h2x")
+
+[node name="Button" type="Button" parent="." unique_id=1166992321]
+offset_left = 277.0
+offset_top = 283.0
+offset_right = 329.0
+offset_bottom = 336.0
+theme_override_fonts/font = ExtResource("5_ietlq")
+theme_override_font_sizes/font_size = 32
+text = "+ 1"
+script = ExtResource("6_ifkpe")
+
+[node name="Label" type="Label" parent="Button" unique_id=2005069600]
+layout_mode = 0
+offset_left = -239.0
+offset_top = 7.0
+offset_right = -199.0
+offset_bottom = 30.0
+text = "ATK: "
+label_settings = SubResource("LabelSettings_jpyye")
+
+[node name="Button6" type="Button" parent="." unique_id=922739655]
+offset_left = 685.0
+offset_top = 283.0
+offset_right = 737.0
+offset_bottom = 336.0
+theme_override_fonts/font = ExtResource("5_ietlq")
+theme_override_font_sizes/font_size = 32
+text = "+ 1"
+script = ExtResource("7_2u1cw")
+
+[node name="Label" type="Label" parent="Button6" unique_id=1322128210]
+layout_mode = 0
+offset_left = -239.0
+offset_top = 7.0
+offset_right = -199.0
+offset_bottom = 30.0
+text = "ATK: "
+label_settings = SubResource("LabelSettings_jpyye")
+
+[node name="Button5" type="Button" parent="." unique_id=1214630106]
+offset_left = 1069.0
+offset_top = 283.0
+offset_right = 1121.0
+offset_bottom = 336.0
+theme_override_fonts/font = ExtResource("5_ietlq")
+theme_override_font_sizes/font_size = 32
+text = "+ 1"
+script = ExtResource("8_805oc")
+
+[node name="Label" type="Label" parent="Button5" unique_id=1050214708]
+layout_mode = 0
+offset_left = -239.0
+offset_top = 7.0
+offset_right = -199.0
+offset_bottom = 30.0
+text = "ATK: "
+label_settings = SubResource("LabelSettings_jpyye")
+
+[node name="Button2" type="Button" parent="." unique_id=798323412]
+offset_left = 277.0
+offset_top = 413.0
+offset_right = 329.0
+offset_bottom = 466.0
+theme_override_fonts/font = ExtResource("5_ietlq")
+theme_override_font_sizes/font_size = 32
+text = "+3"
+script = ExtResource("9_msik1")
+
+[node name="Label" type="Label" parent="Button2" unique_id=26383462]
+layout_mode = 0
+offset_left = -239.0
+offset_top = 7.0
+offset_right = -199.0
+offset_bottom = 30.0
+text = "ATK: "
+label_settings = SubResource("LabelSettings_jpyye")
+
+[node name="Button3" type="Button" parent="." unique_id=919372626]
+offset_left = 688.0
+offset_top = 413.0
+offset_right = 740.0
+offset_bottom = 466.0
+theme_override_fonts/font = ExtResource("5_ietlq")
+theme_override_font_sizes/font_size = 32
+text = "+3"
+script = ExtResource("10_elkf3")
+
+[node name="Label" type="Label" parent="Button3" unique_id=585969819]
+layout_mode = 0
+offset_left = -239.0
+offset_top = 7.0
+offset_right = -199.0
+offset_bottom = 30.0
+text = "ATK: "
+label_settings = SubResource("LabelSettings_jpyye")
+
+[node name="Button4" type="Button" parent="." unique_id=2059021699]
+offset_left = 1070.0
+offset_top = 413.0
+offset_right = 1122.0
+offset_bottom = 466.0
+theme_override_fonts/font = ExtResource("5_ietlq")
+theme_override_font_sizes/font_size = 32
+text = "+3"
+script = ExtResource("11_fkbcv")
+
+[node name="Label" type="Label" parent="Button4" unique_id=408019084]
+layout_mode = 0
+offset_left = -239.0
+offset_top = 7.0
+offset_right = -199.0
+offset_bottom = 30.0
+text = "ATK: "
+label_settings = SubResource("LabelSettings_jpyye")
+
+[node name="Label" type="Label" parent="." unique_id=1785314526]
+offset_left = 226.0
+offset_top = 572.0
+offset_right = 767.0
+offset_bottom = 637.0
+text = "EACH UPGRADE COSTS"
+label_settings = SubResource("LabelSettings_5q0ap")
+script = ExtResource("12_5lg3s")
+
+[node name="Label2" type="Label" parent="." unique_id=1801424844]
+offset_left = -3.0
+offset_top = 2.0
+offset_right = 538.0
+offset_bottom = 67.0
+text = "Currency:"
+label_settings = SubResource("LabelSettings_d1e4h")
+script = ExtResource("13_65xal")
+
+[node name="Button7" type="Button" parent="." unique_id=2115431256]
+offset_left = 902.0
+offset_top = 502.0
+offset_right = 1120.0
+offset_bottom = 560.0
+theme_override_fonts/font = ExtResource("5_ietlq")
+theme_override_font_sizes/font_size = 32
+text = "Leave"
+script = ExtResource("14_of4aw")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
+[connection signal="pressed" from="Button6" to="Button6" method="_on_pressed"]
+[connection signal="pressed" from="Button5" to="Button5" method="_on_pressed"]
+[connection signal="pressed" from="Button2" to="Button2" method="_on_pressed"]
+[connection signal="pressed" from="Button3" to="Button3" method="_on_pressed"]
+[connection signal="pressed" from="Button4" to="Button4" method="_on_pressed"]
+[connection signal="pressed" from="Button7" to="Button7" method="_on_pressed"]

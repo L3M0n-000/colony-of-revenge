@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://bhsj8whyk2eqv"]
+
+[ext_resource type="Script" uid="uid://bm7q8xb6f2b0s" path="res://ant.gd" id="1_1lyyg"]
+[ext_resource type="Texture2D" uid="uid://bkiv7fyiyoyjb" path="res://asstes/pixil-frame-0 (28).png" id="2_1lyyg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5tacl"]
+size = Vector2(117, 106)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_jpyye"]
+radius = 125.016
+
+[node name="Area2D" type="Area2D" unique_id=1518602878]
+script = ExtResource("1_1lyyg")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=761640264]
+texture_filter = 1
+texture = ExtResource("2_1lyyg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=700812359]
+position = Vector2(-1.5, -1)
+shape = SubResource("RectangleShape2D_5tacl")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=612079525 groups=["non placable area"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=679730686]
+scale = Vector2(0.6, 0.6)
+shape = SubResource("CircleShape2D_jpyye")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cti4fes5vrkh3"
+path="res://.godot/imported/Gentle Breeze.ogg-e72d084aaa95792f6f19eb225fa0b1a0.oggvorbisstr"
+
+[deps]
+
+source_file="res://asstes/Gentle Breeze.ogg"
+dest_files=["res://.godot/imported/Gentle Breeze.ogg-e72d084aaa95792f6f19eb225fa0b1a0.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://craly6jjtsift"
+path="res://.godot/imported/Map rough demo.mp3-3203f9688f1309dc8fddab05bf64ac15.mp3str"
+
+[deps]
+
+source_file="res://asstes/Map rough demo.mp3"
+dest_files=["res://.godot/imported/Map rough demo.mp3-3203f9688f1309dc8fddab05bf64ac15.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
